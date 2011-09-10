@@ -23,10 +23,10 @@
 ActionMailer::Base.smtp_settings = {
     :address =>        "smtp.gmail.com",
     :port =>           587,
-    :domain =>         "mail.weboniselab.com",
+    :domain =>         "mail.gmail.com",       #or your domain specific like mail.yourdomain.com
     :authentication => :plain,
-    :user_name =>      "vivek@weboniselab.com",
-    :password =>       "bitnayu"
+    :user_name =>      "adasdas@asdadasdasda.com",
+    :password =>       "asdadadasds"
  }
 # 
 # The same approach works for other SMTP servers thet require authentication. Note that GMail's SMTP server runs on a 
